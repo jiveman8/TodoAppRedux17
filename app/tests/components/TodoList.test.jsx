@@ -51,5 +51,4 @@ describe('TodoList', ()=> {
         
         expect($el.find('.container__message').length).toBe(1);
     });
-    
 });

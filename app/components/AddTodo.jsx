@@ -1,4 +1,4 @@
- var React = require('react');
+var React = require('react');
 var {connect} = require('react-redux');
 var actions = require('actions');
 

@@ -22,14 +22,8 @@ export var addTodo = (todo) => {
     };
 };
 
-export var addTodos = (todos) => {
-    return {
-        type: 'ADD_TODOS',
-        todos
-    };
-};
 
-export var startaddTodo = (text) => {
+export var startAddTodo = (text) => {
     return (dispatch, getState) => {
         var todo = {
             text,
@@ -45,6 +39,13 @@ export var startaddTodo = (text) => {
                 id: todoRef.key
             }));
         });
+    };
+};
+
+export var addTodos = (todos) => {
+    return {
+        type: 'ADD_TODOS',
+        todos
     };
 };
 

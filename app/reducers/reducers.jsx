@@ -26,7 +26,7 @@ export var todosReducer = (state = [], action) => {
         case 'ADD_TODO':
             return [
                 ...state,
-                ...action.todo
+                action.todo
             ];
         case 'TOGGLE_TODO':
             return state.map((todo) =>{

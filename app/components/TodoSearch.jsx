@@ -2,7 +2,7 @@ var React=require('react');
 var {connect} = require('react-redux');
 var actions = require('actions');
 
-var TodoSearch = React.createClass({
+export var TodoSearch = React.createClass({
     
     render: function(){
         var {dispatch, showCompleted, searchText} = this.props;

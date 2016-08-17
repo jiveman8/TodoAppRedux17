@@ -10,9 +10,9 @@ import ConnectedTodoList,  {TodoList} from 'TodoList';
 import ConnectedTodo,  {Todo} from 'Todo';
 
 describe('TodoList', ()=> {
-    it('should exist', ()=>{
-        expect(TodoList).toExist();
-    });
+    // it('should exist', ()=>{
+    //     expect(TodoList).toExist();
+    // });
     it('should render one todo component for each todo item', ()=>{
         var todos = [{
             id: 1, 

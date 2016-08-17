@@ -10,9 +10,9 @@ import {TodoApp} from 'TodoApp';
 import TodoList from 'TodoList';
 
 describe('TodoApp', ()=> {
-    it('should exist', ()=>{
-        expect(TodoApp).toExist();
-    });
+    // it('should exist', ()=>{
+    //     expect(TodoApp).toExist();
+    // });
     it('should render TodoList', ()=> {
         var store = configureStore.configure();
         var provider = TestUtils.renderIntoDocument(

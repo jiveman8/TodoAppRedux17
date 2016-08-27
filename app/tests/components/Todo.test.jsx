@@ -7,9 +7,9 @@ import * as actions from 'actions';
 import {Todo} from 'Todo';
 
 describe('Todo', ()=> {
-    // it('should exist', ()=>{
-    //     expect(Todo).toExist();
-    // });
+    it('should exist', ()=>{
+        expect(Todo).toExist();
+    });
     it('should dispatch TOGGLE_TODO action on Click', ()=>{
         var todoData ={
             id: 199,
